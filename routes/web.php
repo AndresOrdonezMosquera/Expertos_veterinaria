@@ -18,7 +18,7 @@ Route::get('/', function () {
     
 });
 Route::get('/pagina1', function () {
-    return "'Hola Mundo'";
+    return view('inicio');
     
 });
 Route::get('/pagina2', function () {
